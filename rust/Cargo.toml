@@ -1,0 +1,18 @@
+[package]
+name = "black_magic"
+version = "0.1.0"
+authors = ["Dan Fithian <daniel.m.fithian@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+jni = { version = "0.10.2", default-features = false }
+reqwest = { version = "0.9.17" }
+select = { version = "0.4.2" }
+openssl-sys = { version = "0.9.47", features = ["vendored"] }
+
+[profile.release]
+lto = true
+
+[lib]
+name = "black_magic"
+crate-type = ["cdylib"]
