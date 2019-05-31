@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Black Magic</string>
+    <string name="session_number">Session #</string>
+    <string name="session_started">Session Started</string>
+    <string name="playoffs">Playoffs</string>
+    <string name="next_game">Next Game</string>
+    <string name="last_game">Last Game</string>
+    <string name="teammates">Teammates</string>
+    <string name="add_new_teammate">Add new teammate</string>
+    <string name="delete_teammate">X</string>
+    <string name="email_teammates">Email teammates</string>
+    <string name="save_teammates">Save teammates</string>
+    <string name="y">Y</string>
+    <string name="n">N</string>
+    <string name="teammate_name">Name</string>
+    <string name="teammate_email">Email</string>
+    <string name="active">Active</string>
+    <string name="delete">Delete</string>
+</resources>
