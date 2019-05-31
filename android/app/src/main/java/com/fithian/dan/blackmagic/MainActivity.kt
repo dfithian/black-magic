@@ -11,8 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.launch)
-        //System.loadLibrary("black_magic")
+        System.loadLibrary("black_magic")
     }
 
     override fun onResume() {
